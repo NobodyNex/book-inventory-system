@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Dune 2",
+    "author": "",
+    "genre": "Non-Fiction",
+    "publishedYear": 2023,
+    "isAvailable": false,
+    "id": 1
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Harbert",
+    "genre": "Non-Fiction",
+    "publishedYear": 2012,
+    "isAvailable": true,
+    "id": 3
+  }
+]

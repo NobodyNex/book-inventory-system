@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.form-section h2 {
+    margin-top: 0;
+    color: #555;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.form-group input, 
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+#searchResults, #allBooks {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    
+}
+
+.form-group {
+    margin-bottom: 5px; /* เพิ่มระยะห่างระหว่างกลุ่มฟอร์ม */
+}
+
+input[type="checkbox"] {
+    width: 10px; /* ขยายความกว้างของ checkbox */
+    height: 10px; /* ขยายความสูงของ checkbox */
+    transform: scale(1.8); /* ขยายขนาด checkbox */
+    cursor: pointer; /* เปลี่ยนลักษณะของเมาส์เมื่อวางเหนือ checkbox */
+    margin-right: 10px; /* เพิ่มระยะห่างด้านขวาของ checkbox */
+}
+
+.form-section {
+    margin: 20px 0; /* เพิ่มระยะห่างด้านบนและด้านล่าง */
+    padding: 20px; /* เพิ่มการ padding เพื่อทำให้ดูโปร่งสบาย */
+    border: 1px solid #ddd; /* เพิ่มเส้นขอบ */
+    border-radius: 8px; /* มุมที่โค้งมน */
+    background-color: #f9f9f9; /* สีพื้นหลัง */
+}
+
+#allBooks {
+    margin-top: 20px; /* เพิ่มระยะห่างระหว่างปุ่มและข้อมูล */
+    padding: 10px; /* เพิ่ม padding เพื่อทำให้ดูสวยงาม */
+    border: 1px solid #ccc; /* เส้นขอบรอบๆ รายการหนังสือ */
+    border-radius: 8px; /* มุมที่โค้งมน */
+    background-color: #fff; /* สีพื้นหลังของข้อมูลหนังสือ */
+    max-height: 300px; /* กำหนดความสูงสูงสุด */
+    overflow-y: auto; /* เพิ่มการเลื่อนในแนวตั้ง */
+}
+
+.book-item {
+    padding: 10px; /* เพิ่ม padding ในแต่ละหนังสือ */
+    border-bottom: 1px solid #eee; /* เส้นขอบด้านล่าง */
+}
+
+.book-item:last-child {
+    border-bottom: none; /* ไม่แสดงเส้นขอบสำหรับรายการสุดท้าย */
+}
+
+.book-title {
+    font-weight: bold; /* ทำให้ชื่อหนังสือหนา */
+}
+
+.book-author,
+.book-genre,
+.book-year {
+    font-size: 0.9em; /* ขนาดฟอนต์เล็กลง */
+    color: #555; /* เปลี่ยนสีข้อความ */
+}
+
+.book-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+}
+
+.book-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.book-author,
+.book-genre,
+.book-year {
+    font-size: 0.9em;
+    margin: 5px 0;
+}

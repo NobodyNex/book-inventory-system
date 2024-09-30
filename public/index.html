@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Inventory System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Book Inventory System</h1>
+
+    <!-- Form for adding a book -->
+    <section class="form-section">
+        <h2>Add Book</h2>
+        <div class="form-group">
+            <label for="addTitle">Title:</label>
+            <input type="text" id="addTitle">
+        </div>
+        <div class="form-group">
+            <label for="addAuthor">Author:</label>
+            <input type="text" id="addAuthor">
+        </div>
+        <div class="form-group">
+            <label for="addGenre">Genre:</label>
+            <select id="addGenre">
+                <option value="Fiction">Fiction</option>
+                <option value="NonFiction">Non-Fiction</option>
+                <option value="Science">Science</option>
+                <option value="History">History</option>
+                <!-- Add more genres as needed -->
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="addPublishedYear">Published Year:</label>
+            <input type="number" id="addPublishedYear">
+        </div>
+        <div class="form-group">
+            <label for="addIsAvailable">Is Available:</label>
+            <input type="checkbox" id="addIsAvailable">
+        </div>
+        <button id="addBookBtn" class="btn">Add Book</button>
+    </section>
+
+    <!-- Form for updating a book -->
+    <section class="form-section">
+        <h2>Update Book</h2>
+        <div class="form-group">
+            <label for="updateId">Book ID:</label>
+            <input type="number" id="updateId">
+        </div>
+        <div class="form-group">
+            <label for="updateTitle">Title:</label>
+            <input type="text" id="updateTitle">
+        </div>
+        <div class="form-group">
+            <label for="updateAuthor">Author:</label>
+            <input type="text" id="updateAuthor">
+        </div>
+        <div class="form-group">
+            <label for="updateGenre">Genre:</label>
+            <select id="updateGenre">
+                <option value="Fiction">Fiction</option>
+                <option value="NonFiction">Non-Fiction</option>
+                <option value="Science">Science</option>
+                <option value="History">History</option>
+                <!-- Add more genres as needed -->
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="updatePublishedYear">Published Year:</label>
+            <input type="number" id="updatePublishedYear">
+        </div>
+        <div class="form-group">
+            <label for="updateIsAvailable">Is Available:</label>
+            <input type="checkbox" id="updateIsAvailable">
+        </div>
+        <button id="updateBookBtn" class="btn">Update Book</button>
+    </section>
+
+    <!-- Form for deleting a book -->
+    <section class="form-section">
+        <h2>Delete Book</h2>
+        <div class="form-group">
+            <label for="deleteId">Book ID:</label>
+            <input type="number" id="deleteId">
+        </div>
+        <button id="deleteBookBtn" class="btn">Delete Book</button>
+    </section>
+
+    <!-- Form for searching books -->
+    <section class="form-section">
+        <h2>Search Books</h2>
+        <div class="form-group">
+            <label for="searchTitle">Title:</label>
+            <input type="text" id="searchTitle">
+        </div>
+        <div class="form-group">
+            <label for="searchAuthor">Author:</label>
+            <input type="text" id="searchAuthor">
+        </div>
+        <div class="form-group">
+            <label for="searchGenre">Genre:</label>
+            <select id="searchGenre">
+                <option value="">Any</option>
+                <option value="Fiction">Fiction</option>
+                <option value="NonFiction">Non-Fiction</option>
+                <option value="Science">Science</option>
+                <option value="History">History</option>
+                <!-- Add more genres as needed -->
+            </select>
+        </div>
+        <button id="searchBooksBtn" class="btn">Search Books</button>
+        <div id="searchResults"></div>
+    </section>
+
+    <!-- List all books -->
+    <section class="form-section">
+        <h2>All Books</h2>
+        <button id="listBooksBtn" class="btn">List All Books</button>
+        <div id="allBooks"></div>
+    </section>
+    
+    <section class="form-section">
+        <h2>Save Inventory</h2>
+        <div class="form-group">
+            <input id="saveFilename" placeholder="Filename">
+        </div>
+        <button id="saveInventoryBtn" class="btn">Save Inventory</button>
+    </section>
+
+    <section class="form-section">
+        <h2>Load Inventory</h2>
+        <div class="form-group">
+            <input id="loadFilename" placeholder="Filename">
+        </div>
+        <button id="loadInventoryBtn" class="btn">Load Inventory</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
